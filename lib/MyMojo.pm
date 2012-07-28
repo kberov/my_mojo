@@ -34,11 +34,9 @@ a namespace and base to create complex application infrastructures by
 adding specific plugins. On its own MyMojo will add
 only default functionality eventually present in any Mojolicious application.
 
-It also (will) depend on other Perl modules and distros like
-L<Mojolicious>, L<App::cpanminus> L<Mojolicious::Command::deploy>.
-
 We will strive to adhere to the Mojolicious conventions as described in
-L<Mojolicious::Guides::Growing > and keep dependencies low as much as possible. Each new plugin will have to take care of its own dependencies.
+L<Mojolicious::Guides::Growing> and L<Mojolicious::Guides::CodingGuidelines>.
+We will keep dependencies low as much as possible. Each new plugin will have to take care of its own dependencies.
 
 =head INSTALL
 
@@ -52,8 +50,10 @@ L<Mojolicious::Guides::Growing > and keep dependencies low as much as possible. 
 
 Feel free to contribute with plugins, suggestions, bug-fixing, comments, requirements.
 
-
 =head1 DEPENDENCIES
+
+MyMojo depends on other Perl modules and distros which are very likely
+to be needed:
 
 L<Mojolicious>, L<App::cpanminus>, L<Mojolicious::Command::deploy>,
 L<Mojolicious::Plugin::I18N>
