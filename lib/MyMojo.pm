@@ -1,6 +1,6 @@
 package MyMojo;
 use Mojo::Base 'Mojolicious';
-
+our $VERSION = 0.01;
 # This method will run once at server start
 sub startup {
   my $self = shift;
@@ -16,3 +16,54 @@ sub startup {
 }
 
 1;
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+MyMojo for my|your|our web-presence
+
+=head1 DESCRIPTON
+
+This is a  basic Mojolicious application, which will be used as
+a namespace and base to create complex application infrastructures by
+adding specific plugins. On its own MyMojo will add
+only default functionality eventually present in any Mojolicious application.
+
+It also (will) depend on other Perl modules and distros like
+L<Mojolicious>, L<App::cpanminus> L<Mojolicious::Command::deploy>.
+
+We will strive to adhere to the Mojolicious conventions as described in
+L<Mojolicious::Guides::Growing > and keep dependencies low as much as possible. Each new plugin will have to take care of its own dependencies.
+
+=head INSTALL
+
+  #install via CPAN
+  cpan MyMojo
+  
+  #install using App::cpanminus to a custom base directory
+  cpanm -L mydirectory MyMojo
+
+=head1 CONTRIBUTE!
+
+Please contribute with plugins, suggestions, bug-fixing, comments, requirements.
+
+
+
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2012 Красимир Беров (Krasimir Berov).
+
+This program is free software, you can redistribute it and/or modify it under
+the terms of the Artistic License version 2.0.
+
+See http://dev.perl.org/licenses/ for more information.
+
+=head1 SEE ALSO
+
+L<Mojolicious>, L<App::cpanminus>, L<Mojolicious::Command::deploy>
