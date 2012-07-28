@@ -48,22 +48,25 @@ L<Mojolicious::Guides::Growing > and keep dependencies low as much as possible. 
   #install using App::cpanminus to a custom base directory
   cpanm -L mydirectory MyMojo
 
-=head1 CONTRIBUTE!
+=head1 CONTRIBUTE
 
-Please contribute with plugins, suggestions, bug-fixing, comments, requirements.
+Feel free to contribute with plugins, suggestions, bug-fixing, comments, requirements.
 
 
+=head1 DEPENDENCIES
 
+L<Mojolicious>, L<App::cpanminus>, L<Mojolicious::Command::deploy>,
+L<Mojolicious::Plugin::I18N>
+
+=head1 AUTHOR
+
+Krasimir Berov (Красимир Беров)
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2012 Красимир Беров (Krasimir Berov).
+Copyright 2012 Красимир Беров (L<berov@cpan.org>).
 
 This program is free software, you can redistribute it and/or modify it under
 the terms of the Artistic License version 2.0.
 
 See http://dev.perl.org/licenses/ for more information.
-
-=head1 SEE ALSO
-
-L<Mojolicious>, L<App::cpanminus>, L<Mojolicious::Command::deploy>
