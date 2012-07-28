@@ -15,4 +15,7 @@ nytprof.out
 pm_to_blib
 *.komodoproject
 *.bak
-
+.*
+*~
+!.gitignore
+!.perltidyrc
