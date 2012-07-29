@@ -38,7 +38,7 @@ We will strive to adhere to the Mojolicious conventions as described in
 L<Mojolicious::Guides::Growing> and L<Mojolicious::Guides::CodingGuidelines>.
 We will keep dependencies low as much as possible. Each new plugin will have to take care of its own dependencies.
 
-=head INSTALL
+=head1 INSTALL
 
   #install via CPAN
   cpan MyMojo
@@ -52,8 +52,8 @@ Feel free to contribute with plugins, suggestions, bug-fixing, comments, require
 
 =head1 DEPENDENCIES
 
-MyMojo depends on other Perl modules and distros which are very likely
-to be needed:
+Altough we try to keep MyMojo core minimalistic it depends on other Perl
+modules which are very likely to be needed:
 
 L<Mojolicious>, L<App::cpanminus>, L<Mojolicious::Command::deploy>,
 L<Mojolicious::Plugin::I18N>
