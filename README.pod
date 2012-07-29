@@ -33,8 +33,8 @@ Feel free to contribute with plugins, suggestions, bug-fixing, comments, require
 
 =head1 DEPENDENCIES
 
-MyMojo depends on other Perl modules and distros which are very likely
-to be needed:
+Altough we try to keep MyMojo core minimalistic it depends on other Perl
+modules which are very likely to be needed:
 
 L<Mojolicious>, L<App::cpanminus>, L<Mojolicious::Command::deploy>,
 L<Mojolicious::Plugin::I18N>
