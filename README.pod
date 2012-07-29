@@ -19,7 +19,7 @@ L<Mojolicious>, L<App::cpanminus> L<Mojolicious::Command::deploy>.
 We will strive to adhere to the Mojolicious conventions as described in
 L<Mojolicious::Guides::Growing > and keep dependencies low as much as possible. Each new plugin will have to take care of its own dependencies.
 
-=head INSTALL
+=head1 INSTALL
 
   #install via CPAN
   cpan MyMojo
